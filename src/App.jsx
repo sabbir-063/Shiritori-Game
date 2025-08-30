@@ -102,7 +102,7 @@ function App() {
     // Valid word: update state
     setPlayers(prev => prev.map((p, idx) =>
       idx === currentTurn
-        ? { ...p, words: [...p.words, word], score: p.score - (word.length + (TURN_TIME - timer)) }
+        ? { ...p, words: [...p.words, word], score: p.score - (word.length + (timer)) }
         : p
     ));
     setLastWord(word);

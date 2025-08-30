@@ -12,7 +12,7 @@ A two-player Shiritori word game built with React and Vite.
 - Words must be at least 4 letters long and cannot be repeated.
 - Each turn lasts 15 seconds. If a player fails to enter a valid word in time, their score increases by 2 points and the turn swaps.
 - If a player enters a wrong word, they can keep trying until time runs out.
-- Score deduction for valid word: `word length + (15 - time remaining)`.
+- Score deduction for valid word: `word length + time left`.
 - The first player whose score reaches 0 or less wins; the other player losses.
 
 ## Features
