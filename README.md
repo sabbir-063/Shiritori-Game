@@ -18,11 +18,10 @@ A two-player Shiritori word game built with React and Vite.
 ## Features
 - Turn-based gameplay with automatic turn swap.
 - Word validation using DictionaryAPI.
-- Separate word history for each player (scrollable, fixed size).
+- Separate word history for each player.
 - Countdown timer for each turn.
 - Score tracking and display.
 - Start button to begin the game.
-- Responsive, modern UI with Tailwind CSS.
 
 ## Setup & Usage
 1. **Install dependencies:**
